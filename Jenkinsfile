@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // ── CHANGE THIS to your Docker Hub username ──
-        DOCKERHUB_USER = 'your-dockerhub-username'
+        DOCKERHUB_USER = 'jitesh'
         // ─────────────────────────────────────────────
 
         IMAGE = "${DOCKERHUB_USER}/simple-web"
